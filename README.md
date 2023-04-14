@@ -7,3 +7,9 @@ Steps:
 Simply replace 'API_KEY' with your key and 'VIDEO_ID' with a video's id. I am currently working on an application/extension to make this more interactable/simplistic. 
 
 Also, this development is in Beta, so there are a lot of issues in it. 
+
+
+
+Updates Listed:
+
+04/14/2023 - 1.0 version debugging. Defined chrome extension. Working on formatting/installation, but top 20% of upvoted comments should be displayed. 
