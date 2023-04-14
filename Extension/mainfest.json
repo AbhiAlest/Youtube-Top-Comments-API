@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Top Comments",
+  "description": "Displays the top 20% of upvoted comments on YouTube videos.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "https://www.googleapis.com/*",
+    "https://www.youtube.com/*"
+  ]
+}
